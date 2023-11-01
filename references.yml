@@ -1,5 +1,5 @@
 mods:
-  - mod: alex-mobs
+  - mod-id: alex-mobs
     version: 1.20.1-1.22.6
-  - mod: better-combat
+  - mod-id: better-combat
     version: 1.20.1-1.2.0
