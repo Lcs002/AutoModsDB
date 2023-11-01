@@ -5,11 +5,11 @@ mods:
   alex-mobs:
     name: Alex Mobs
     versions: 
-      - 1.20.1-1.22.6: 
-        file: database\alexsmobs-1.22.6.jar
-        depencencies: 
-        - citadel:
-          version: 1.20.1-2.4.7
+    - 1.20.1-1.22.6: 
+      file: database\alexsmobs-1.22.6.jar
+      depencencies: 
+      - citadel:
+        version: 1.20.1-2.4.7
   
   citadel:
     name: Citadel
@@ -20,13 +20,13 @@ mods:
   basic-weapons:
     name: Basic Weapons
     versions:
-      - 1.20.1-1.2.0:
-        file: database\basicweapons-forge-mc1.20.11.2.0.jar
+    - 1.20.1-1.2.0:
+      file: database\basicweapons-forge-mc1.20.11.2.0.jar
 
   bed-benefits:
     name: Bed Benefits
     versions:
-      - 1.20.1-13.0.2:
+    - 1.20.1-13.0.2:
       file: database\BedBenefits-Forge-1.20.1-13.0.2.jar
       dependencies:
       - bookshelf:
@@ -35,7 +35,7 @@ mods:
   bookshelf:
     name: Bookshelf
     versions:
-    - 1.20.1-20.1.6
+    - 1.20.1-20.1.6:
       file: database\Bookshelf-Forge-1.20.1-20.1.6.jar
   
   corpse:
