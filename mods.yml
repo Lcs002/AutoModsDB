@@ -1,3 +1,5 @@
 mods:
-  - alex-mobs
-  - basic-weapons
+  - alex-mobs:
+    version: 1.20.1-1.22.6
+  - basic-weapons:
+    version: 1.20.1-1.2.0
