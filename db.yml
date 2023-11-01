@@ -2,133 +2,133 @@ mods:
 
   # Shared ==================================================
 
-  alex-mobs:
+  - mod: alex-mobs
     name: Alex Mobs
     versions: 
-    - 1.20.1-1.22.6: 
-      file: alexsmobs-1.22.6.jar
-      depencencies: 
-      - citadel:
-        version: 1.20.1-2.4.7
+      - version: 1.20.1-1.22.6
+        file: alexsmobs-1.22.6.jar
+        dependencies: 
+          - dependency: citadel
+            version: 1.20.1-2.4.7
   
-  citadel:
+  - mod: citadel
     name: Citadel
     versions:
-    - 1.20.1-2.4.7:
-      file: citadel-2.4.7-1.20.1.jar
+      - version: 1.20.1-2.4.7
+        file: citadel-2.4.7-1.20.1.jar
 
-  better-combat:
+  - mod: better-combat
     name: Better Combat
     versions:
-    - 1.20.1-1.8.1:
-      file: bettercombat-forge-1.8.01.20.1.jar
-      dependencies:
-      - cloth-config-api:
-        version: 1.20.1-11.1.106
-      - player-animator:
-        version: 1.20.1-1.0.2-rc1
+      - version: 1.20.1-1.8.1
+        file: bettercombat-forge-1.8.01.20.1.jar
+        dependencies:
+          - dependency: cloth-config-api
+            version: 1.20.1-11.1.106
+          - dependency: player-animator
+            version: 1.20.1-1.0.2-rc1
 
-  cloth-config-api:
+  - mod: cloth-config-api
     name: Cloth Config API
     versions:
-    - 1.20.1-11.1.106:
-      file: cloth-config-11.1.106-forge.jar
+      - version: 1.20.1-11.1.106
+        file: cloth-config-11.1.106-forge.jar
 
-  basic-weapons:
+  - mod: basic-weapons
     name: Basic Weapons
     versions:
-    - 1.20.1-1.2.0:
-      file: basicweapons-forge-mc1.20.11.2.0.jar
+      - version: 1.20.1-1.2.0
+        file: basicweapons-forge-mc1.20.11.2.0.jar
 
-  bed-benefits:
+  - mod: bed-benefits
     name: Bed Benefits
     versions:
-    - 1.20.1-13.0.2:
-      file: BedBenefits-Forge-1.20.1-13.0.2.jar
-      dependencies:
-      - bookshelf:
-        version: 1.20.1-20.1.6
+      - version: 1.20.1-13.0.2
+        file: BedBenefits-Forge-1.20.1-13.0.2.jar
+        dependencies:
+          - dependency: bookshelf
+            version: 1.20.1-20.1.6
 
-  bookshelf:
+  - mod: bookshelf
     name: Bookshelf
     versions:
-    - 1.20.1-20.1.6:
-      file: Bookshelf-Forge-1.20.1-20.1.6.jar
+      - version: 1.20.1-20.1.6
+        file: Bookshelf-Forge-1.20.1-20.1.6.jar
   
-  corpse:
+  - mod: corpse
     name: Corpse
     versions:
-    - 1.20.1-1.0.5:
-      file: corpse-1.20.1-1.0.5.jar
+      - version: 1.20.1-1.0.5
+        file: corpse-1.20.1-1.0.5.jar
 
-  creeper-overhaul:
+  - mod: creeper-overhaul
     name: Creeper Overhaul
     versions:
-    - 1.20.1-3.0.1:
-      file: creeperoverhaul-3.0.1-forge.jar
-      dependencies:
-      - geckolib:
-        version: 1.20.1-4.2.3
-      - resourceful-config:
-        version: 1.20.1-2.1.0
+      - version: 1.20.1-3.0.1
+        file: creeperoverhaul-3.0.1-forge.jar
+        dependencies:
+          - dependency: geckolib
+            version: 1.20.1-4.2.3
+          - dependency: resourceful-config
+            version: 1.20.1-2.1.0
 
-  geckolib:
+  - mod: geckolib
     name: Geckolib
     versions:
-    - 1.20.1-4.2.3:
-      file: geckolib-forge-1.20.1-4.2.3.jar
+      - version: 1.20.1-4.2.3
+        file: geckolib-forge-1.20.1-4.2.3.jar
   
-  resourceful-config:
+  - mod: resourceful-config
     name: Resourceful Config
     versions:
-    - 1.20.1-2.1.0:
-      file: resourcefulconfig-forge-1.20.1-2.1.0.jar
+      - version: 1.20.1-2.1.0
+        file: resourcefulconfig-forge-1.20.1-2.1.0.jar
 
-  enderman-overhaul:
+  - mod: enderman-overhaul
     name: Enderman Overhaul
     versions:
-    - 1.20.1-1.0.1:
-      file: endermanoverhaul-forge-1.20.1-1.0.1.jar
-      dependencies:
-      - geckolib:
-        version: 1.20.1-4.2.3
-      - resourceful-config:
-        version: 1.20.1-2.1.0
-      - resourceful-lib:
-        version: 1.20.1-2.1.13
+      - version: 1.20.1-1.0.1
+        file: endermanoverhaul-forge-1.20.1-1.0.1.jar
+        dependencies:
+          - dependency: geckolib
+            version: 1.20.1-4.2.3
+          - dependency: resourceful-config
+            version: 1.20.1-2.1.0
+          - dependency: resourceful-lib
+            version: 1.20.1-2.1.13
   
-  resourceful-lib:
+  - mod: resourceful-lib
     name: Resourceful Lib
     versions:
-    - 1.20.1-2.1.13:
-      file: resourcefullib-forge-1.20.1-2.1.13.jar
+      - version: 1.20.1-2.1.13
+        file: resourcefullib-forge-1.20.1-2.1.13.jar
     
-  jei:
+  - mod: jei
     name: Just Enough Items
     versions:
-    - 1.20.1-15.2.0.27:
-      file: jei-1.20.1-forge-15.2.0.27.jar
+      - version: 1.20.1-15.2.0.27
+        file: jei-1.20.1-forge-15.2.0.27.jar
   
-  journey-map:
+  - mod: journey-map
     name: Journey Map
     versions:
-    - 1.20.1-5.9.15:
-      file: journeymap-1.20.1-5.9.15-forge.jar
+      - version: 1.20.1-5.9.15
+        file: journeymap-1.20.1-5.9.15-forge.jar
   
-  l-enders-cataclysm:
+  - mod: l-enders-cataclysm
     name: L Enders Cataclysm
     versions:
-    - 1.20.1-1.39:
-      file: L_Enders_Cataclysm-1.39+-1.20.1.jar
-      dependencies:
-      - citadel:
-        version: 1.20.1-2.4.7
+      - version: 1.20.1-1.39
+        file: L_Enders_Cataclysm-1.39+-1.20.1.jar
+        dependencies:
+          - dependency: citadel
+            version: 1.20.1-2.4.7
 
-  end-remastered:
+  - mod: end-remastered
     name: End Remastered
     versions:
-    - 1.20.1-5.2.3-R:
-      file: endrem_forge-5.2.3-R-1.20.X.jar
+      - version: 1.20.1-5.2.3-R
+        file: endrem_forge-5.2.3-R-1.20.X.jar
 
 # Server Side ==================================================
 
