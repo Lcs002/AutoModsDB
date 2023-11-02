@@ -177,13 +177,13 @@ mods:
 - modID: yungs-better-end-island
     name: Yungs Better End Island
     versions:
-    - version:1.20.1-2.0.4
+    - version: 1.20.1-2.0.4
       file: YungsBetterEndIsland-1.20-Forge-2.0.4.jar 
 
 - modID: yungs-better-jungle-temples
     name: Yungs Better Jungle Temples
     versions:
-    - version:1.20.1-2.0.4
+    - version: 1.20.1-2.0.4
       file: YungsBetterJungleTemples-1.20-Forge-2.0.4.jar 
 
 # Client Side ==================================================
