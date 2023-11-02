@@ -39,7 +39,7 @@ mods:
   - modID: player-animation-lib
     name: Player Animation Lib
     versions:
-    - version: 1.20.1-1.0.2
+    - version: 1.20.1-1.0.2-rc1
       file: player-animation-lib-forge-1.0.2-rc11.20.jar
 
   - modID: cloth-config-api
