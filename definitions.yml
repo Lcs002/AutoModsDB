@@ -1,6 +1,6 @@
 mods:
 
-  # Shared ==================================================
+  # Required [Server & Client] ==================================================
 
   - modID: alex-mobs
     name: Alex Mobs
@@ -130,7 +130,28 @@ mods:
       - version: 1.20.1-5.2.3-R
         file: endrem_forge-5.2.3-R-1.20.X.jar
 
-# Server Side ==================================================
+  - modID: easier-sleeping
+    name: Easier Sleeping
+    versions:
+    - version: 1.20.1-2.1.3
+      file: EasierSleeping-1.20.1-2.1.3.jar
+
+  - modID: useful-backpacks
+    name: Useful Backpacks
+    versions:
+    - version: 1.20.1-2.0.1.122
+      file: useful_backpacks-forge-1.20.1-2.0.1.122.jar
+      dependencies:
+      - modID: u-team-core
+        version: 1.20.1-5.1.4.269
+
+  - modID: u-team-core
+    name: U Team Core
+    versions:
+    - version: 1.20.1-5.1.4.269
+      file: u_team_core-forge-1.20.1-5.1.4.269.jar
+
+# Optional Server Side Only ==================================================
 
   - modID: chunk-pregenerator
     name: Chunk Pregenerator
@@ -155,6 +176,15 @@ mods:
     versions: 
     - version: 1.20.1-1.11.1
       file: Towns-and-Towers-1.11.1-Fabric+Forge.jar
+      dependencies:
+      - modID: cristel-lib
+        version: 1.20.1-1.1.3
+
+  - modID: cristel-lib
+    name: Cristel Lib
+    versions:
+    - version: 1.20.1-1.1.3
+      file: cristellib-1.1.3-forge.jar
 
   - modID: yungs-api
     name: Yungs Api
@@ -167,23 +197,195 @@ mods:
     versions:
     - version: 1.20.1-3.0.3
       file: YungsBetterDesertTemples-1.20-Forge-3.0.3.jar
+      dependencies:
+      - modID: yungs-api
+        version: 1.20.1-4.0.2
 
-- modID: yungs-better-dungeons
+  - modID: yungs-better-dungeons
     name: Yungs BetterDungeons
     versions:
     - version: 1.20.1-4.0.3
       file: YungsBetterDungeons-1.20-Forge-4.0.3.jar 
+      dependencies:
+      - modID: yungs-api
+        version: 1.20.1-4.0.2
 
-- modID: yungs-better-end-island
+  - modID: yungs-better-end-island
     name: Yungs Better End Island
     versions:
     - version: 1.20.1-2.0.4
       file: YungsBetterEndIsland-1.20-Forge-2.0.4.jar 
+      dependencies:
+      - modID: yungs-api
+        version: 1.20.1-4.0.2
 
-- modID: yungs-better-jungle-temples
+  - modID: yungs-better-jungle-temples
     name: Yungs Better Jungle Temples
     versions:
     - version: 1.20.1-2.0.4
       file: YungsBetterJungleTemples-1.20-Forge-2.0.4.jar 
+      dependencies:
+      - modID: yungs-api
+        version: 1.20.1-4.0.2
 
-# Client Side ==================================================
+  - modID: yungs-better-mineshafts
+    name: Yungs Better Mineshafts
+    versions:
+    - version: 1.20.1-4.0.4
+      file: YungsBetterMineshafts-1.20-Forge-4.0.4.jar
+      dependencies:
+      - modID: yungs-api
+        version: 1.20.1-4.0.2
+
+  - modID: yungs-better-nether-fortresses
+    name: Yungs Better Nether Fortresses
+    versions:
+    - version: 1.20.1-2.0.5
+      file: YungsBetterNetherFortresses-1.20-Forge-2.0.5.jar  
+      dependencies:
+      - modID: yungs-api
+        version: 1.20.1-4.0.2
+
+  - modID: yungs-better-witch-huts
+    name: Yungs Better Witch Huts
+    versions:
+    - version: 1.20.1-3.0.3
+      file: YungsBetterWitchHuts-1.20-Forge-3.0.3.jar  
+      dependencies:
+      - modID: yungs-api
+        version: 1.20.1-4.0.2
+
+  - modID: yungs-extras
+    name: Yungs Extras
+    versions:
+    - version: 1.20.1-4.0.3
+      file: YungsExtras-1.20-Forge-4.0.3.jar  
+      dependencies:
+      - modID: yungs-api
+        version: 1.20.1-4.0.2
+
+  - modID: dungeons-enhanced
+    name: Dungeons Enhanced
+    versions:
+    - version: 1.20.1-5.2
+      file: dungeons_enhanced-1.20.1-5.2.jar
+      dependencies:
+      - modID: structure-gel-api
+        version: 1.20.1-2.15.0
+
+  - modID: structure-gel-api
+    name: Structure Gel API
+    versions:
+    - version: 1.20.1-2.15.0
+      file: structure_gel-1.20.1-2.15.0.jar
+
+  - modID: better-chunk-loading
+    name: Better Chunk Loading
+    versions:
+    - version: 1.20.1-2.2
+      file: betterchunkloading-1.20.1-2.2.jar
+      dependencies:
+      - modID: cupboard
+        version: 1.20.1-2.1
+
+  - modID: chunk-sending
+    name: Chunk Sending
+    versions:
+    - version: 1.20.1-2.7
+      file: chunksending-1.20.1-2.7.jar
+  
+  - modID: smooth-chunk
+    name: Smooth Chunk
+    versions:
+    - version: 1.20.1-3.3
+      file: smoothchunk-1.20.1-3.3.jar
+
+  - modID: the-lost-castle
+    name: The Lost Castle
+    versions:
+    - version: 1.20.1-1.0.3-R
+      file: tlc_forge-1.0.3-R-1.20.X.jar
+
+# Optional Client Side Only ==================================================
+
+  - modID: optifine
+    name: OptiFine
+    versions: 
+    - version: 1.20.1-HD-U-I6-pre6
+      file: preview_OptiFine_1.20.1_HD_U_I6_pre6.jar
+  
+  - modID: model-gap-fix
+    name: Model Gap Fix
+    versions:
+    - version: 1.20.1-1.14
+      file: modelfix-1.14.jar
+
+  - modID: farsight
+    name: Farsight
+    versions: 
+    - version: 1.20.1-3.5
+      file: farsight-1.20.1-3.5.jar
+      dependencies:
+      - modID: cupboard
+        version: 1.20.1-2.1
+
+  - modID: first-person-model
+    name: First-person Model
+    versions:
+    - version: 1.20.1-2.2.4
+      file: firstperson-forge-2.2.4-mc1.20.1.jar
+      dependencies:
+      - modID: not-enough-animations
+        version: 1.20.1-1.6.4
+  
+  - modID: not-enough-animations
+    name: Not Enough Animations
+    versions:
+    - version: 1.20.1-1.6.4
+      file: notenoughanimations-forge-1.6.4-mc1.20.jar
+
+  - modID: sound-physics-remastered
+    name: Sound Physics Remastered
+    versions:
+    - version: 1.20.1-1.2.1
+      file: soundphysics-forge-1.20.1-1.2.1.jar
+      dependencies:
+      - modID: cloth-config-api
+
+  - modID: better-third-person
+    name: Better Third Person
+    versions:
+    - version: 1.20.1-1.9.0
+      file: BetterThirdPerson-Forge-1.20-1.9.0.jar
+
+  - modID: rpg-hud
+    name: RPG-Hud
+    versions:
+    - version: 1.20.1-3.1.0
+      file: 1.20.1ForgeRPG-HUD-3.10.jar
+
+  - modID: better-fps-render-distance
+    name: Better Fps - Render Distance
+    versions:
+    - version: 1.20.1-4.0
+      file: betterfpsdist-1.20.1-4.0.jar
+
+# Optional Client and Server ==================================================
+
+  - modID: cupboard
+    name: Cupboard
+    versions:
+    - version: 1.20.1-2.1
+      file: cupboard-1.20.1-2.1.jar
+
+  - modID: memory-leak-fix
+    name: Memory Leak Fix
+    versions:
+    - version: 1.20.1-1.17
+      file: memoryleakfix-forge-1.17+-1.1.2.jar
+
+  - modID: ferrite-core
+    name: FerriteCore
+    versions:
+    - version: 1.20.1-6.0.1
+      file: ferritecore-6.0.1-forge.jar
