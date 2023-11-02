@@ -1,6 +1,6 @@
 mods:
 
-  # Required 
+  # optional 
   - modid: alex-mobs
   - modid: better-combat
   - modid: basic-weapons
