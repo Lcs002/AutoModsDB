@@ -1,537 +1,536 @@
 - version: 1.0
-
 mods:
 
-  # optional [Server & Client] ==================================================
-  - modID: alex-mobs
-    name: Alex Mobs
-    optional: false
-    contexts: 
-    - server
-    - client 
-    versions: 
-      - version: 1.20.1-1.22.6
-        file: alexsmobs-1.22.6.jar
-        dependencies: 
-          - modID: citadel
-            version: 1.20.1-2.4.7
-  
-  - modID: citadel
-    name: Citadel
-    versions:
-      - version: 1.20.1-2.4.7
-        file: citadel-2.4.7-1.20.1.jar
+# optional [Server & Client] ==================================================
+- modID: alex-mobs
+  name: Alex Mobs
+  optional: false
+  contexts: 
+  - server
+  - client 
+  versions: 
+    - version: 1.20.1-1.22.6
+      file: alexsmobs-1.22.6.jar
+      dependencies: 
+        - modID: citadel
+          version: 1.20.1-2.4.7
 
-  - modID: better-combat
-    name: Better Combat
-    optional: false
-    contexts: 
-    - server
-    - client 
-    versions:
-      - version: 1.20.1-1.8.1
-        file: bettercombat-forge-1.8.01.20.1.jar
-        dependencies:
-          - modID: cloth-config-api
-            version: 1.20.1-11.1.106
-          - modID: player-animation-lib
-            version: 1.20.1-1.0.2-rc1
+- modID: citadel
+  name: Citadel
+  versions:
+    - version: 1.20.1-2.4.7
+      file: citadel-2.4.7-1.20.1.jar
 
-  - modID: player-animation-lib
-    name: Player Animation Lib
-    versions:
-    - version: 1.20.1-1.0.2-rc1
-      file: player-animation-lib-forge-1.0.2-rc11.20.jar
-
-  - modID: cloth-config-api
-    name: Cloth Config API
-    versions:
-      - version: 1.20.1-11.1.106
-        file: cloth-config-11.1.106-forge.jar
-
-  - modID: basic-weapons
-    name: Basic Weapons
-    optional: false
-    contexts: 
-    - server
-    - client 
-    versions:
-      - version: 1.20.1-1.2.0
-        file: basicweapons-forge-mc1.20.11.2.0.jar
-
-  - modID: bed-benefits
-    name: Bed Benefits
-    optional: false
-    contexts: 
-    - server
-    - client 
-    versions:
-      - version: 1.20.1-13.0.2
-        file: BedBenefits-Forge-1.20.1-13.0.2.jar
-        dependencies:
-          - modID: bookshelf
-            version: 1.20.1-20.1.6
-
-  - modID: bookshelf
-    name: Bookshelf
-    versions:
-      - version: 1.20.1-20.1.6
-        file: Bookshelf-Forge-1.20.1-20.1.6.jar
-  
-  - modID: corpse
-    name: Corpse
-    optional: false
-    contexts: 
-    - server
-    - client  
-    versions:
-      - version: 1.20.1-1.0.5
-        file: corpse-1.20.1-1.0.5.jar
-
-  - modID: creeper-overhaul
-    name: Creeper Overhaul
-    optional: false
-    contexts: 
-    - server
-    - client 
-    versions:
-      - version: 1.20.1-3.0.1
-        file: creeperoverhaul-3.0.1-forge.jar
-        dependencies:
-          - modID: geckolib
-            version: 1.20.1-4.2.3
-          - modID: resourceful-config
-            version: 1.20.1-2.1.0
-
-  - modID: geckolib
-    name: Geckolib
-    versions:
-      - version: 1.20.1-4.2.3
-        file: geckolib-forge-1.20.1-4.2.3.jar
-  
-  - modID: resourceful-config
-    name: Resourceful Config
-    versions:
-      - version: 1.20.1-2.1.0
-        file: resourcefulconfig-forge-1.20.1-2.1.0.jar
-
-  - modID: enderman-overhaul
-    name: Enderman Overhaul
-    optional: false
-    contexts: 
-    - server
-    - client  
-    versions:
-      - version: 1.20.1-1.0.1
-        file: endermanoverhaul-forge-1.20.1-1.0.1.jar
-        dependencies:
-          - modID: geckolib
-            version: 1.20.1-4.2.3
-          - modID: resourceful-config
-            version: 1.20.1-2.1.0
-          - modID: resourceful-lib
-            version: 1.20.1-2.1.13
-  
-  - modID: resourceful-lib
-    name: Resourceful Lib
-    versions:
-      - version: 1.20.1-2.1.13
-        file: resourcefullib-forge-1.20.1-2.1.13.jar
-    
-  - modID: jei
-    name: Just Enough Items
-    optional: false
-    contexts: 
-    - server
-    - client  
-    versions:
-      - version: 1.20.1-15.2.0.27
-        file: jei-1.20.1-forge-15.2.0.27.jar
-  
-  - modID: journey-map
-    name: Journey Map
-    optional: false
-    contexts: 
-    - server
-    - client  
-    versions:
-      - version: 1.20.1-5.9.15
-        file: journeymap-1.20.1-5.9.15-forge.jar
-  
-  - modID: l-enders-cataclysm
-    name: L Enders Cataclysm
-    optional: false
-    contexts: 
-    - server
-    - client  
-    versions:
-      - version: 1.20.1-1.39
-        file: L_Enders_Cataclysm-1.39+-1.20.1.jar
-        dependencies:
-          - modID: citadel
-            version: 1.20.1-2.4.7
-
-  - modID: end-remastered
-    name: End Remastered
-    optional: false
-    contexts: 
-    - server
-    - client  
-    versions:
-      - version: 1.20.1-5.2.3-R
-        file: endrem_forge-5.2.3-R-1.20.X.jar
-
-  - modID: easier-sleeping
-    name: Easier Sleeping
-    optional: false
-    contexts: 
-    - server
-    - client  
-    versions:
-    - version: 1.20.1-2.1.3
-      file: EasierSleeping-1.20.1-2.1.3.jar
-
-  - modID: useful-backpacks
-    name: Useful Backpacks
-    optional: false
-    contexts: 
-    - server
-    - client  
-    versions:
-    - version: 1.20.1-2.0.1.122
-      file: useful_backpacks-forge-1.20.1-2.0.1.122.jar
+- modID: better-combat
+  name: Better Combat
+  optional: false
+  contexts: 
+  - server
+  - client 
+  versions:
+    - version: 1.20.1-1.8.1
+      file: bettercombat-forge-1.8.01.20.1.jar
       dependencies:
-      - modID: u-team-core
-        version: 1.20.1-5.1.4.269
+        - modID: cloth-config-api
+          version: 1.20.1-11.1.106
+        - modID: player-animation-lib
+          version: 1.20.1-1.0.2-rc1
 
-  - modID: u-team-core
-    name: U Team Core
-    versions:
-    - version: 1.20.1-5.1.4.269
-      file: u_team_core-forge-1.20.1-5.1.4.269.jar
+- modID: player-animation-lib
+  name: Player Animation Lib
+  versions:
+  - version: 1.20.1-1.0.2-rc1
+    file: player-animation-lib-forge-1.0.2-rc11.20.jar
+
+- modID: cloth-config-api
+  name: Cloth Config API
+  versions:
+    - version: 1.20.1-11.1.106
+      file: cloth-config-11.1.106-forge.jar
+
+- modID: basic-weapons
+  name: Basic Weapons
+  optional: false
+  contexts: 
+  - server
+  - client 
+  versions:
+    - version: 1.20.1-1.2.0
+      file: basicweapons-forge-mc1.20.11.2.0.jar
+
+- modID: bed-benefits
+  name: Bed Benefits
+  optional: false
+  contexts: 
+  - server
+  - client 
+  versions:
+    - version: 1.20.1-13.0.2
+      file: BedBenefits-Forge-1.20.1-13.0.2.jar
+      dependencies:
+        - modID: bookshelf
+          version: 1.20.1-20.1.6
+
+- modID: bookshelf
+  name: Bookshelf
+  versions:
+    - version: 1.20.1-20.1.6
+      file: Bookshelf-Forge-1.20.1-20.1.6.jar
+
+- modID: corpse
+  name: Corpse
+  optional: false
+  contexts: 
+  - server
+  - client  
+  versions:
+    - version: 1.20.1-1.0.5
+      file: corpse-1.20.1-1.0.5.jar
+
+- modID: creeper-overhaul
+  name: Creeper Overhaul
+  optional: false
+  contexts: 
+  - server
+  - client 
+  versions:
+    - version: 1.20.1-3.0.1
+      file: creeperoverhaul-3.0.1-forge.jar
+      dependencies:
+        - modID: geckolib
+          version: 1.20.1-4.2.3
+        - modID: resourceful-config
+          version: 1.20.1-2.1.0
+
+- modID: geckolib
+  name: Geckolib
+  versions:
+    - version: 1.20.1-4.2.3
+      file: geckolib-forge-1.20.1-4.2.3.jar
+
+- modID: resourceful-config
+  name: Resourceful Config
+  versions:
+    - version: 1.20.1-2.1.0
+      file: resourcefulconfig-forge-1.20.1-2.1.0.jar
+
+- modID: enderman-overhaul
+  name: Enderman Overhaul
+  optional: false
+  contexts: 
+  - server
+  - client  
+  versions:
+    - version: 1.20.1-1.0.1
+      file: endermanoverhaul-forge-1.20.1-1.0.1.jar
+      dependencies:
+        - modID: geckolib
+          version: 1.20.1-4.2.3
+        - modID: resourceful-config
+          version: 1.20.1-2.1.0
+        - modID: resourceful-lib
+          version: 1.20.1-2.1.13
+
+- modID: resourceful-lib
+  name: Resourceful Lib
+  versions:
+    - version: 1.20.1-2.1.13
+      file: resourcefullib-forge-1.20.1-2.1.13.jar
+  
+- modID: jei
+  name: Just Enough Items
+  optional: false
+  contexts: 
+  - server
+  - client  
+  versions:
+    - version: 1.20.1-15.2.0.27
+      file: jei-1.20.1-forge-15.2.0.27.jar
+
+- modID: journey-map
+  name: Journey Map
+  optional: false
+  contexts: 
+  - server
+  - client  
+  versions:
+    - version: 1.20.1-5.9.15
+      file: journeymap-1.20.1-5.9.15-forge.jar
+
+- modID: l-enders-cataclysm
+  name: L Enders Cataclysm
+  optional: false
+  contexts: 
+  - server
+  - client  
+  versions:
+    - version: 1.20.1-1.39
+      file: L_Enders_Cataclysm-1.39+-1.20.1.jar
+      dependencies:
+        - modID: citadel
+          version: 1.20.1-2.4.7
+
+- modID: end-remastered
+  name: End Remastered
+  optional: false
+  contexts: 
+  - server
+  - client  
+  versions:
+    - version: 1.20.1-5.2.3-R
+      file: endrem_forge-5.2.3-R-1.20.X.jar
+
+- modID: easier-sleeping
+  name: Easier Sleeping
+  optional: false
+  contexts: 
+  - server
+  - client  
+  versions:
+  - version: 1.20.1-2.1.3
+    file: EasierSleeping-1.20.1-2.1.3.jar
+
+- modID: useful-backpacks
+  name: Useful Backpacks
+  optional: false
+  contexts: 
+  - server
+  - client  
+  versions:
+  - version: 1.20.1-2.0.1.122
+    file: useful_backpacks-forge-1.20.1-2.0.1.122.jar
+    dependencies:
+    - modID: u-team-core
+      version: 1.20.1-5.1.4.269
+
+- modID: u-team-core
+  name: U Team Core
+  versions:
+  - version: 1.20.1-5.1.4.269
+    file: u_team_core-forge-1.20.1-5.1.4.269.jar
 
 # Optional Server Side Only ==================================================
 
-  - modID: chunk-pregenerator
-    name: Chunk Pregenerator
-    optional: true
-    contexts: 
-    - server
-    versions:
-      - version: 1.20.1-4.2.3
-        file: Chunk+Pregenerator-1.20-4.2.3.jar
+- modID: chunk-pregenerator
+  name: Chunk Pregenerator
+  optional: true
+  contexts: 
+  - server
+  versions:
+    - version: 1.20.1-4.2.3
+      file: Chunk+Pregenerator-1.20-4.2.3.jar
 
-  - modID: dungeon-crawl
-    name: Dungeon Crawl
-    optional: true
-    contexts: 
-    - server
-    versions:
-    - version: 1.20.1-2.3.14
-      file: Dungeon+Crawl-1.20.1-2.3.14.jar
+- modID: dungeon-crawl
+  name: Dungeon Crawl
+  optional: true
+  contexts: 
+  - server
+  versions:
+  - version: 1.20.1-2.3.14
+    file: Dungeon+Crawl-1.20.1-2.3.14.jar
 
-  - modID: terralith
-    name: Terralith
-    optional: true
-    contexts: 
-    - server
-    versions: 
-    - version: 1.20.1-2.4.5
-      file: Terralith_1.20.1_v2.4.5.jar
+- modID: terralith
+  name: Terralith
+  optional: true
+  contexts: 
+  - server
+  versions: 
+  - version: 1.20.1-2.4.5
+    file: Terralith_1.20.1_v2.4.5.jar
 
-  - modID: towns-and-towers
-    name: Towns and Towers
-    optional: true
-    contexts: 
-    - server
-    versions: 
-    - version: 1.20.1-1.11.1
-      file: Towns-and-Towers-1.11.1-Fabric+Forge.jar
-      dependencies:
-      - modID: cristel-lib
-        version: 1.20.1-1.1.3
+- modID: towns-and-towers
+  name: Towns and Towers
+  optional: true
+  contexts: 
+  - server
+  versions: 
+  - version: 1.20.1-1.11.1
+    file: Towns-and-Towers-1.11.1-Fabric+Forge.jar
+    dependencies:
+    - modID: cristel-lib
+      version: 1.20.1-1.1.3
 
-  - modID: cristel-lib
-    name: Cristel Lib
-    versions:
-    - version: 1.20.1-1.1.3
-      file: cristellib-1.1.3-forge.jar
+- modID: cristel-lib
+  name: Cristel Lib
+  versions:
+  - version: 1.20.1-1.1.3
+    file: cristellib-1.1.3-forge.jar
 
-  - modID: yungs-api
-    name: Yungs Api
-    versions:
-    - version: 1.20.1-4.0.2
-      file: YungsApi-1.20-Forge-4.0.2.jar
+- modID: yungs-api
+  name: Yungs Api
+  versions:
+  - version: 1.20.1-4.0.2
+    file: YungsApi-1.20-Forge-4.0.2.jar
 
-  - modID: yungs-better-desert-temples
-    name: Yungs Better Desert Temples
-    optional: true
-    contexts: 
-    - server
-    versions:
-    - version: 1.20.1-3.0.3
-      file: YungsBetterDesertTemples-1.20-Forge-3.0.3.jar
-      dependencies:
-      - modID: yungs-api
-        version: 1.20.1-4.0.2
+- modID: yungs-better-desert-temples
+  name: Yungs Better Desert Temples
+  optional: true
+  contexts: 
+  - server
+  versions:
+  - version: 1.20.1-3.0.3
+    file: YungsBetterDesertTemples-1.20-Forge-3.0.3.jar
+    dependencies:
+    - modID: yungs-api
+      version: 1.20.1-4.0.2
 
-  - modID: yungs-better-dungeons
-    name: Yungs BetterDungeons
-    optional: true
-    contexts: 
-    - server
-    versions:
-    - version: 1.20.1-4.0.3
-      file: YungsBetterDungeons-1.20-Forge-4.0.3.jar 
-      dependencies:
-      - modID: yungs-api
-        version: 1.20.1-4.0.2
+- modID: yungs-better-dungeons
+  name: Yungs BetterDungeons
+  optional: true
+  contexts: 
+  - server
+  versions:
+  - version: 1.20.1-4.0.3
+    file: YungsBetterDungeons-1.20-Forge-4.0.3.jar 
+    dependencies:
+    - modID: yungs-api
+      version: 1.20.1-4.0.2
 
-  - modID: yungs-better-end-island
-    name: Yungs Better End Island
-    optional: true
-    contexts: 
-    - server
-    versions:
-    - version: 1.20.1-2.0.4
-      file: YungsBetterEndIsland-1.20-Forge-2.0.4.jar 
-      dependencies:
-      - modID: yungs-api
-        version: 1.20.1-4.0.2
+- modID: yungs-better-end-island
+  name: Yungs Better End Island
+  optional: true
+  contexts: 
+  - server
+  versions:
+  - version: 1.20.1-2.0.4
+    file: YungsBetterEndIsland-1.20-Forge-2.0.4.jar 
+    dependencies:
+    - modID: yungs-api
+      version: 1.20.1-4.0.2
 
-  - modID: yungs-better-jungle-temples
-    name: Yungs Better Jungle Temples
-    optional: true
-    contexts: 
-    - server
-    versions:
-    - version: 1.20.1-2.0.4
-      file: YungsBetterJungleTemples-1.20-Forge-2.0.4.jar 
-      dependencies:
-      - modID: yungs-api
-        version: 1.20.1-4.0.2
+- modID: yungs-better-jungle-temples
+  name: Yungs Better Jungle Temples
+  optional: true
+  contexts: 
+  - server
+  versions:
+  - version: 1.20.1-2.0.4
+    file: YungsBetterJungleTemples-1.20-Forge-2.0.4.jar 
+    dependencies:
+    - modID: yungs-api
+      version: 1.20.1-4.0.2
 
-  - modID: yungs-better-mineshafts
-    name: Yungs Better Mineshafts
-    optional: true
-    contexts: 
-    - server
-    versions:
-    - version: 1.20.1-4.0.4
-      file: YungsBetterMineshafts-1.20-Forge-4.0.4.jar
-      dependencies:
-      - modID: yungs-api
-        version: 1.20.1-4.0.2
+- modID: yungs-better-mineshafts
+  name: Yungs Better Mineshafts
+  optional: true
+  contexts: 
+  - server
+  versions:
+  - version: 1.20.1-4.0.4
+    file: YungsBetterMineshafts-1.20-Forge-4.0.4.jar
+    dependencies:
+    - modID: yungs-api
+      version: 1.20.1-4.0.2
 
-  - modID: yungs-better-nether-fortresses
-    name: Yungs Better Nether Fortresses
-    optional: true
-    contexts: 
-    - server
-    versions:
-    - version: 1.20.1-2.0.5
-      file: YungsBetterNetherFortresses-1.20-Forge-2.0.5.jar  
-      dependencies:
-      - modID: yungs-api
-        version: 1.20.1-4.0.2
+- modID: yungs-better-nether-fortresses
+  name: Yungs Better Nether Fortresses
+  optional: true
+  contexts: 
+  - server
+  versions:
+  - version: 1.20.1-2.0.5
+    file: YungsBetterNetherFortresses-1.20-Forge-2.0.5.jar  
+    dependencies:
+    - modID: yungs-api
+      version: 1.20.1-4.0.2
 
-  - modID: yungs-better-witch-huts
-    name: Yungs Better Witch Huts
-    optional: true
-    contexts: 
-    - server
-    versions:
-    - version: 1.20.1-3.0.3
-      file: YungsBetterWitchHuts-1.20-Forge-3.0.3.jar  
-      dependencies:
-      - modID: yungs-api
-        version: 1.20.1-4.0.2
+- modID: yungs-better-witch-huts
+  name: Yungs Better Witch Huts
+  optional: true
+  contexts: 
+  - server
+  versions:
+  - version: 1.20.1-3.0.3
+    file: YungsBetterWitchHuts-1.20-Forge-3.0.3.jar  
+    dependencies:
+    - modID: yungs-api
+      version: 1.20.1-4.0.2
 
-  - modID: yungs-extras
-    name: Yungs Extras
-    optional: true
-    contexts: 
-    - server
-    versions:
-    - version: 1.20.1-4.0.3
-      file: YungsExtras-1.20-Forge-4.0.3.jar  
-      dependencies:
-      - modID: yungs-api
-        version: 1.20.1-4.0.2
+- modID: yungs-extras
+  name: Yungs Extras
+  optional: true
+  contexts: 
+  - server
+  versions:
+  - version: 1.20.1-4.0.3
+    file: YungsExtras-1.20-Forge-4.0.3.jar  
+    dependencies:
+    - modID: yungs-api
+      version: 1.20.1-4.0.2
 
-  - modID: dungeons-enhanced
-    name: Dungeons Enhanced
-    optional: true
-    contexts: 
-    - server
-    versions:
-    - version: 1.20.1-5.2
-      file: dungeons_enhanced-1.20.1-5.2.jar
-      dependencies:
-      - modID: structure-gel-api
-        version: 1.20.1-2.15.0
+- modID: dungeons-enhanced
+  name: Dungeons Enhanced
+  optional: true
+  contexts: 
+  - server
+  versions:
+  - version: 1.20.1-5.2
+    file: dungeons_enhanced-1.20.1-5.2.jar
+    dependencies:
+    - modID: structure-gel-api
+      version: 1.20.1-2.15.0
 
-  - modID: structure-gel-api
-    name: Structure Gel API
-    optional: false
-    contexts: 
-    - server
-    - client
-    versions:
-    - version: 1.20.1-2.15.0
-      file: structure_gel-1.20.1-2.15.0.jar
+- modID: structure-gel-api
+  name: Structure Gel API
+  optional: false
+  contexts: 
+  - server
+  - client
+  versions:
+  - version: 1.20.1-2.15.0
+    file: structure_gel-1.20.1-2.15.0.jar
 
-  - modID: better-chunk-loading
-    name: Better Chunk Loading
-    optional: true
-    contexts: 
-    - server
-    versions:
-    - version: 1.20.1-2.2
-      file: betterchunkloading-1.20.1-2.2.jar
-      dependencies:
-      - modID: cupboard
-        version: 1.20.1-2.1
+- modID: better-chunk-loading
+  name: Better Chunk Loading
+  optional: true
+  contexts: 
+  - server
+  versions:
+  - version: 1.20.1-2.2
+    file: betterchunkloading-1.20.1-2.2.jar
+    dependencies:
+    - modID: cupboard
+      version: 1.20.1-2.1
 
-  - modID: chunk-sending
-    name: Chunk Sending
-    optional: true
-    contexts: 
-    - server
-    versions:
-    - version: 1.20.1-2.7
-      file: chunksending-1.20.1-2.7.jar
-  
-  - modID: smooth-chunk
-    name: Smooth Chunk
-    optional: true
-    contexts: 
-    - server
-    versions:
-    - version: 1.20.1-3.3
-      file: smoothchunk-1.20.1-3.3.jar
+- modID: chunk-sending
+  name: Chunk Sending
+  optional: true
+  contexts: 
+  - server
+  versions:
+  - version: 1.20.1-2.7
+    file: chunksending-1.20.1-2.7.jar
 
-  - modID: the-lost-castle
-    name: The Lost Castle
-    optional: true
-    contexts: 
-    - server
-    versions:
-    - version: 1.20.1-1.0.3-R
-      file: tlc_forge-1.0.3-R-1.20.X.jar
+- modID: smooth-chunk
+  name: Smooth Chunk
+  optional: true
+  contexts: 
+  - server
+  versions:
+  - version: 1.20.1-3.3
+    file: smoothchunk-1.20.1-3.3.jar
+
+- modID: the-lost-castle
+  name: The Lost Castle
+  optional: true
+  contexts: 
+  - server
+  versions:
+  - version: 1.20.1-1.0.3-R
+    file: tlc_forge-1.0.3-R-1.20.X.jar
 
 # Optional Client Side Only ==================================================
 
-  - modID: optifine
-    name: OptiFine
-    optional: true
-    contexts: 
-    - client
-    versions: 
-    - version: 1.20.1-HD-U-I6-pre6
-      file: preview_OptiFine_1.20.1_HD_U_I6_pre6.jar
-  
-  - modID: model-gap-fix
-    name: Model Gap Fix
-    versions:
-    - version: 1.20.1-1.14
-      file: modelfix-1.14.jar
+- modID: optifine
+  name: OptiFine
+  optional: true
+  contexts: 
+  - client
+  versions: 
+  - version: 1.20.1-HD-U-I6-pre6
+    file: preview_OptiFine_1.20.1_HD_U_I6_pre6.jar
 
-  - modID: farsight
-    name: Farsight
-    optional: true
-    contexts: 
-    - client
-    versions: 
-    - version: 1.20.1-3.5
-      file: farsight-1.20.1-3.5.jar
-      dependencies:
-      - modID: cupboard
-        version: 1.20.1-2.1
+- modID: model-gap-fix
+  name: Model Gap Fix
+  versions:
+  - version: 1.20.1-1.14
+    file: modelfix-1.14.jar
 
-  - modID: first-person-model
-    name: First-person Model
-    optional: true
-    contexts: 
-    - client
-    versions:
-    - version: 1.20.1-2.2.4
-      file: firstperson-forge-2.2.4-mc1.20.1.jar
-      dependencies:
-      - modID: not-enough-animations
-        version: 1.20.1-1.6.4
-  
-  - modID: not-enough-animations
-    name: Not Enough Animations
-    optional: true
-    contexts: 
-    - client
-    versions:
-    - version: 1.20.1-1.6.4
-      file: notenoughanimations-forge-1.6.4-mc1.20.jar
+- modID: farsight
+  name: Farsight
+  optional: true
+  contexts: 
+  - client
+  versions: 
+  - version: 1.20.1-3.5
+    file: farsight-1.20.1-3.5.jar
+    dependencies:
+    - modID: cupboard
+      version: 1.20.1-2.1
 
-  - modID: sound-physics-remastered
-    name: Sound Physics Remastered
-    optional: true
-    contexts: 
-    - client
-    versions:
-    - version: 1.20.1-1.2.1
-      file: soundphysics-forge-1.20.1-1.2.1.jar
-      dependencies:
-      - modID: cloth-config-api
+- modID: first-person-model
+  name: First-person Model
+  optional: true
+  contexts: 
+  - client
+  versions:
+  - version: 1.20.1-2.2.4
+    file: firstperson-forge-2.2.4-mc1.20.1.jar
+    dependencies:
+    - modID: not-enough-animations
+      version: 1.20.1-1.6.4
 
-  - modID: better-third-person
-    name: Better Third Person
-    optional: true
-    contexts: 
-    - client
-    versions:
-    - version: 1.20.1-1.9.0
-      file: BetterThirdPerson-Forge-1.20-1.9.0.jar
+- modID: not-enough-animations
+  name: Not Enough Animations
+  optional: true
+  contexts: 
+  - client
+  versions:
+  - version: 1.20.1-1.6.4
+    file: notenoughanimations-forge-1.6.4-mc1.20.jar
 
-  - modID: rpg-hud
-    name: RPG-Hud
-    optional: true
-    contexts: 
-    - client
-    versions:
-    - version: 1.20.1-3.1.0
-      file: 1.20.1ForgeRPG-HUD-3.10.jar
+- modID: sound-physics-remastered
+  name: Sound Physics Remastered
+  optional: true
+  contexts: 
+  - client
+  versions:
+  - version: 1.20.1-1.2.1
+    file: soundphysics-forge-1.20.1-1.2.1.jar
+    dependencies:
+    - modID: cloth-config-api
 
-  - modID: better-fps-render-distance
-    name: Better Fps - Render Distance
-    optional: true
-    contexts: 
-    - client
-    versions:
-    - version: 1.20.1-4.0
-      file: betterfpsdist-1.20.1-4.0.jar
+- modID: better-third-person
+  name: Better Third Person
+  optional: true
+  contexts: 
+  - client
+  versions:
+  - version: 1.20.1-1.9.0
+    file: BetterThirdPerson-Forge-1.20-1.9.0.jar
+
+- modID: rpg-hud
+  name: RPG-Hud
+  optional: true
+  contexts: 
+  - client
+  versions:
+  - version: 1.20.1-3.1.0
+    file: 1.20.1ForgeRPG-HUD-3.10.jar
+
+- modID: better-fps-render-distance
+  name: Better Fps - Render Distance
+  optional: true
+  contexts: 
+  - client
+  versions:
+  - version: 1.20.1-4.0
+    file: betterfpsdist-1.20.1-4.0.jar
 
 # Optional Client and Server ==================================================
 
-  - modID: cupboard
-    name: Cupboard
-    versions:
-    - version: 1.20.1-2.1
-      file: cupboard-1.20.1-2.1.jar
+- modID: cupboard
+  name: Cupboard
+  versions:
+  - version: 1.20.1-2.1
+    file: cupboard-1.20.1-2.1.jar
 
-  - modID: memory-leak-fix
-    name: Memory Leak Fix
-    optional: true
-    contexts: 
-    - client
-    - server
-    versions:
-    - version: 1.20.1-1.17
-      file: memoryleakfix-forge-1.17+-1.1.2.jar
+- modID: memory-leak-fix
+  name: Memory Leak Fix
+  optional: true
+  contexts: 
+  - client
+  - server
+  versions:
+  - version: 1.20.1-1.17
+    file: memoryleakfix-forge-1.17+-1.1.2.jar
 
-  - modID: ferrite-core
-    name: FerriteCore
-    optional: true
-    contexts: 
-    - client
-    - server
-    versions:
-    - version: 1.20.1-6.0.1
-      file: ferritecore-6.0.1-forge.jar
+- modID: ferrite-core
+  name: FerriteCore
+  optional: true
+  contexts: 
+  - client
+  - server
+  versions:
+  - version: 1.20.1-6.0.1
+    file: ferritecore-6.0.1-forge.jar
