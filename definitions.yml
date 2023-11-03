@@ -1,9 +1,8 @@
 - version: 1.0
 
-  mods:
+mods:
 
   # optional [Server & Client] ==================================================
-
   - modID: alex-mobs
     name: Alex Mobs
     optional: false
