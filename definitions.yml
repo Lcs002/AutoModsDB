@@ -1,4 +1,5 @@
-mods:
+definitions:
+  version: 1.0
 
   # optional [Server & Client] ==================================================
 
