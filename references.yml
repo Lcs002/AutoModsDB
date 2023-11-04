@@ -13,7 +13,7 @@ mods:
   - modid: l-enders-cataclysm
   - modid: end-remastered
   - modid: useful-backpacks
-  - modid: structure-gel
+  - modid: structure-gel-api
 
   # Optional Server
   - modid: chunk-pregenerator
