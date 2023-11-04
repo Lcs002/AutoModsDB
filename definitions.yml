@@ -4,6 +4,7 @@ mods:
   # optional [Server & Client] ==================================================
   - modID: alex-mobs
     name: Alex Mobs
+    description: Alex's Mobs is a Forge mod that adds 89 new mobs to Minecraft. All of these mobs fall into either two categories: most of them are real world creatures, like Grizzly Bears, Roadrunners, Orcas, etc; but some of them are purely fictional, like the Endergade and Bone Serpent. All of these creatures fulfill a necessary purpose, and either have unique drops, mechanics or functions, as there are no purely aesthetic creatures. That said, they also help make some environments in the game feel more alive. The models, textures, animations and AI are all stylistically compatible with the vanilla game's latest additions."
     optional: false
     contexts: 
     - server
@@ -17,12 +18,14 @@ mods:
 
   - modID: citadel
     name: Citadel
+    description: "Citadel is a Library mod required for advanced animations and entity properties in 1.14 and beyond. Citadel, being a Library, does not add many features by itself, but rather provides a frame work for other mods when it comes to animating entities, loading .tbl Tabula and .obj Waveront models, and for keeping track of entity properties. Citadel's predecessor, LLibrary, will no longer be updated from 1.12.2, and from now on all of my mods will use Citadel. Citadel's code base is largely derived from LLibrary, and the code is used with permission from Gegy1000, the maintainer of LLibrary and its author in recent versions."
     versions:
       - version: 1.20.1-2.4.7
         file: citadel-2.4.7-1.20.1.jar
 
   - modID: better-combat
     name: Better Combat
+    description: "Easy, spectacular and fun melee combat system from Minecraft Dungeons."
     optional: false
     contexts: 
     - server
@@ -409,6 +412,9 @@ mods:
     versions:
     - version: 1.20.1-3.3
       file: smoothchunk-1.20.1-3.3.jar
+      dependencies:
+      - modID: cupboard
+        version: 1.20.1-2.1
 
   - modID: the-lost-castle
     name: The Lost Castle
@@ -517,6 +523,7 @@ mods:
 
   - modID: memory-leak-fix
     name: Memory Leak Fix
+    description: "A mod that fixes some bugs which leak resources within GPU memory, causing issues like these: GL_OUT_OF_MEMORY GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT GL_INVALID_FRAMEBUFFER_OPERATION"
     optional: true
     contexts: 
     - client
