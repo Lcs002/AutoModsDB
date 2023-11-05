@@ -1,50 +1,50 @@
 mods:
 
   # optional 
-  - modid: alex-mobs
-  - modid: better-combat
-  - modid: basic-weapons
-  - modid: bed-benefits
-  - modid: corpse
-  - modid: creeper-overhaul
-  - modid: enderman-overhaul
-  - modid: jei
-  - modid: journey-map
-  - modid: l-enders-cataclysm
-  - modid: end-remastered
-  - modid: useful-backpacks
-  - modid: structure-gel-api
+  - modID: alex-mobs
+  - modID: better-combat
+  - modID: basic-weapons
+  - modID: bed-benefits
+  - modID: corpse
+  - modID: creeper-overhaul
+  - modID: enderman-overhaul
+  - modID: jei
+  - modID: journey-map
+  - modID: l-enders-cataclysm
+  - modID: end-remastered
+  - modID: useful-backpacks
+  - modID: structure-gel-api
 
   # Optional Server
-  - modid: chunk-pregenerator
-  - modid: dungeon-crawl
-  - modid: terralith
-  - modid: towns-and-towers
-  - modid: yungs-better-desert-temples
-  - modid: yungs-better-dungeons
-  - modid: yungs-better-end-island
-  - modid: yungs-better-jungle-temples
-  - modid: yungs-better-mineshafts
-  - modid: yungs-better-nether-fortresses
-  - modid: yungs-better-witch-huts
-  - modid: yungs-extras
-  - modid: dungeons-enhanced
-  - modid: better-chunk-loading
-  - modid: chunk-sending
-  - modid: smooth-chunk
-  - modid: the-lost-castle
+  - modID: chunk-pregenerator
+  - modID: dungeon-crawl
+  - modID: terralith
+  - modID: towns-and-towers
+  - modID: yungs-better-desert-temples
+  - modID: yungs-better-dungeons
+  - modID: yungs-better-end-island
+  - modID: yungs-better-jungle-temples
+  - modID: yungs-better-mineshafts
+  - modID: yungs-better-nether-fortresses
+  - modID: yungs-better-witch-huts
+  - modID: yungs-extras
+  - modID: dungeons-enhanced
+  - modID: better-chunk-loading
+  - modID: chunk-sending
+  - modID: smooth-chunk
+  - modID: the-lost-castle
 
   # Optional Client
-  - modid: optifine
-  - modid: model-gap-fix
-  - modid: farsight
-  - modid: first-person-model
-  - modid: not-enough-animations
-  - modid: sound-physics-remastered
-  - modid: better-third-person
-  - modid: rpg-hud
-  - modid: better-fps-render-distance
+  - modID: optifine
+  - modID: model-gap-fix
+  - modID: farsight
+  - modID: first-person-model
+  - modID: not-enough-animations
+  - modID: sound-physics-remastered
+  - modID: better-third-person
+  - modID: rpg-hud
+  - modID: better-fps-render-distance
 
   # Optional Client + Server
-  - modid: memory-leak-fix
-  - modid: ferrite-core
+  - modID: memory-leak-fix
+  - modID: ferrite-core

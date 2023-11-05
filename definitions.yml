@@ -1,7 +1,7 @@
 version: "1"
 mods:
 
-  # optional [Server & Client] ==================================================
+  # both [Server & Client] ==================================================
   - modID: alex-mobs
     name: Alex Mobs
     description: "Alex's Mobs is a Forge mod that adds 89 new mobs to Minecraft. All of these mobs fall into either two categories: most of them are real world creatures, like Grizzly Bears, Roadrunners, Orcas, etc; but some of them are purely fictional, like the Endergade and Bone Serpent. All of these creatures fulfill a necessary purpose, and either have unique drops, mechanics or functions, as there are no purely aesthetic creatures. That said, they also help make some environments in the game feel more alive. The models, textures, animations and AI are all stylistically compatible with the vanilla game's latest additions."
@@ -211,6 +211,78 @@ mods:
     versions:
     - version: 1.20.1-5.1.4.269
       file: u_team_core-forge-1.20.1-5.1.4.269.jar
+
+  - modID: realm-rpg-dragon-wyrms
+    name: "Realm RPG: Dragon Wyrms"
+    optional: false
+    contexts:
+    - client
+    - server
+    versions:
+    - version: 1.20.1-0.9.0
+      file: realmrpg_dragon_wyrms_0.9.0_forge_1.20.1.jar
+      dependencies:
+      - modID: geckolib
+        version: 1.20.1-4.2.3
+
+  - modID: realm-rpg-fallen-adventurers
+    name: "Realm RPG: Fallen Adventurers"
+    optional: false
+    contexts:
+    - client
+    - server
+    versions: 
+    - version: 1.20.1-1.0.1 
+      file: realmrpg_fallen_adventurers_1.0.1_forge_1.20.1.jar
+
+  - modID: realm-rpg-imps-n-demons
+    name: "Realm RPG: Imps & Demons"
+    optional: false
+    contexts:
+    - client
+    - server
+    versions:
+    - version: 1.20.1-0.9.0
+      file: realmrpg_imps_and_demons_0.9.0_forge_1.20.1.jar
+      dependencies:
+      - modID: geckolib
+        version: 1.20.1-4.2.3
+
+  - modID: realm-rpg-creep-n-crop
+    name: "Realm RPG: Creep n Crop"
+    optional: false:
+    contexts:
+    - client
+    - server
+    versions:
+    - version: 1.20.1-1.0.1
+      file: realmrpg_creep_and_crop_1.0.1_forge_1.20.1.jar
+      dependencies:
+      - modID: geckolib
+        version: 1.20.1-4.2.3
+
+  - modID: ender-trigon
+    name: "Ender Trigon"
+    optional: false
+    contexts:
+    - client
+    - server
+    versions:
+    - version: 1.20.1-1.0
+      file: endertrigon-1.20.1-1.0.jar
+
+  - modID: alex-caves
+    name: "Alex Caves"
+    optional: false
+    contexts:
+    - client
+    - server
+    versions:
+    - version: 1.20.1-1.0.6
+      file: alexscaves-1.0.6.jar
+      dependencies:
+      - modID: citadel
+        version: 1.20.1-2.4.7
 
   # Optional Server Side Only ==================================================
 
@@ -425,6 +497,15 @@ mods:
     - version: 1.20.1-1.0.3-R
       file: tlc_forge-1.0.3-R-1.20.X.jar
 
+  - modID: repurposed-structures
+    name: Repurposed Structures
+    optional: true
+    contexs:
+    - server
+    versions:
+    - version: 1.20.1-7.1.11
+      file: repurposed_structures-7.1.11+1.20.1-forge.jar
+
   # Optional Client Side Only ==================================================
 
   - modID: optifine
@@ -512,6 +593,15 @@ mods:
     versions:
     - version: 1.20.1-4.0
       file: betterfpsdist-1.20.1-4.0.jar
+
+  - modID: skin-layers-3d
+    name: Skin Layers 3D
+    optional: true
+    contexts:
+    - client
+    versions:
+    - version: 1.20.1-1.5.4
+      file: 3dskinlayers-forge-1.5.4-mc1.20.1.jar
 
   # Optional Client and Server ==================================================
 
