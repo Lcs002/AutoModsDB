@@ -500,7 +500,7 @@ mods:
   - modID: repurposed-structures
     name: Repurposed Structures
     optional: true
-    contexs:
+    contexts:
     - server
     versions:
     - version: 1.20.1-7.1.11
