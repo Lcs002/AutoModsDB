@@ -250,7 +250,7 @@ mods:
 
   - modID: realm-rpg-creep-n-crop
     name: "Realm RPG: Creep n Crop"
-    optional: false:
+    optional: false
     contexts:
     - client
     - server
