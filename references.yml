@@ -56,7 +56,7 @@ mods:
   - modID: rpg-hud
   - modID: better-fps-render-distance
   - modID: skin-layers-3d
-  - modID: ambience-sounds
+  - modID: ambient-sounds
   - modID: falling-leaves
 
   # Optional Client + Server
