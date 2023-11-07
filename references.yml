@@ -14,6 +14,15 @@ mods:
   - modID: end-remastered
   - modID: useful-backpacks
   - modID: structure-gel-api
+  - modID: easier-sleeping
+  - modID: realm-rpg-dragon-wyrms
+  - modID: realm-rpg-fallen-adventurers
+  - modID: realm-rpg-imps-n-demons
+  - modID: realm-rpg-creep-n-crop
+  - modID: ender-trigon
+  - modID: alex-caves
+  - modID: illager-invasion
+  - modID: waystones
 
   # Optional Server
   - modID: chunk-pregenerator
@@ -33,6 +42,8 @@ mods:
   - modID: chunk-sending
   - modID: smooth-chunk
   - modID: the-lost-castle
+  - modID: repurposed-structures
+  - modID: dungeons-and-taverns
 
   # Optional Client
   - modID: optifine
@@ -44,6 +55,9 @@ mods:
   - modID: better-third-person
   - modID: rpg-hud
   - modID: better-fps-render-distance
+  - modID: skin-layers-3d
+  - modID: ambience-sounds
+  - modID: falling-leaves
 
   # Optional Client + Server
   - modID: memory-leak-fix
