@@ -332,6 +332,18 @@ mods:
     - version: 1.20.1-1.0.6
       file: camera-1.20.1-1.0.6.jar
 
+  - modID: hardcore-revival
+    name: Hardcore Revival
+    optional: false
+    contexts:
+    - client
+    - server
+    versions:
+    - version: 1.20.1-2.0.0
+      file: hardcorerevival-forge-1.20-12.0.0.jar
+      dependencies:
+      - modID: balm
+        version: 1.20.1-7.1.4
 
   # Optional Server Side Only ==================================================
 
