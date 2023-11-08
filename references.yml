@@ -24,6 +24,7 @@ mods:
   - modID: alex-caves # Muchas cosas 
   - modID: illager-invasion # Más tipos de illagers y estructuras por el mundo
   - modID: waystones # Piedras para teletransporte 
+  - modID: camera # Camara para sacar fotos dentro de minecraft (se pueden poner en cuadros)
 
   # Optional Server
   - modID: chunk-pregenerator
