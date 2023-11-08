@@ -14,15 +14,16 @@ mods:
   - modID: end-remastered
   - modID: useful-backpacks
   - modID: structure-gel-api
-  - modID: easier-sleeping
-  - modID: realm-rpg-dragon-wyrms
-  - modID: realm-rpg-fallen-adventurers
-  - modID: realm-rpg-imps-n-demons
-  - modID: realm-rpg-creep-n-crop
-  - modID: ender-trigon
-  - modID: alex-caves
-  - modID: illager-invasion
-  - modID: waystones
+  # Nuevos
+  - modID: easier-sleeping # Votacion para dormir
+  - modID: realm-rpg-dragon-wyrms # Dragones pequeños que spawnean en el End y Nether
+  - modID: realm-rpg-fallen-adventurers # Esqueletos con loot por el mundo
+  - modID: realm-rpg-imps-n-demons # Demonios en el Nether
+  - modID: realm-rpg-creep-n-crop # Mobs-planta nocivos
+  - modID: ender-trigon # Ender dragon más dificil 
+  - modID: alex-caves # Muchas cosas 
+  - modID: illager-invasion # Más tipos de illagers y estructuras por el mundo
+  - modID: waystones # Piedras para teletransporte 
 
   # Optional Server
   - modID: chunk-pregenerator
@@ -42,8 +43,9 @@ mods:
   - modID: chunk-sending
   - modID: smooth-chunk
   - modID: the-lost-castle
-  - modID: repurposed-structures
-  - modID: dungeons-and-taverns
+  # Nuevos
+  - modID: repurposed-structures # Mejores estructuras vanilla 
+  - modID: dungeons-and-taverns # Estructuras que pueden ser encontradas con mapas (encontrados en estructuras menores)
 
   # Optional Client
   - modID: optifine
@@ -55,8 +57,9 @@ mods:
   - modID: better-third-person
   - modID: rpg-hud
   - modID: better-fps-render-distance
-  - modID: skin-layers-3d
-  - modID: ambient-sounds
+  # Nuevos
+  - modID: skin-layers-3d # Skins en 3D
+  - modID: ambient-sounds # Sonidos ambiente (Muy recomendado)
   - modID: falling-leaves
 
   # Optional Client + Server
