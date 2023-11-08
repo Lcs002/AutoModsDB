@@ -324,6 +324,10 @@ mods:
 
   - modID: camera
     name: Camera
+    optional: false
+    contexts:
+    - client
+    - server
     versions:
     - version: 1.20.1-1.0.6
       file: camera-1.20.1-1.0.6.jar
